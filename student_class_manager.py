@@ -4,11 +4,11 @@ class Myclass:
         self.rollno=rollno
         self.name = myname
         self.marks=marks
+    def display(self):
+        print("Name:",self.name)
+        print("Roll No:",self.rollno)
+        print("Marks:",self.marks)
 s1=Myclass("Awais",1,90)
-print(s1.name)
-print(s1.rollno)
-print(s1.marks)
+s1.display()
 s2=Myclass("Ali",2,80)
-print(s2.name)
-print(s2.rollno)
-print(s2.marks)
+s2.display()
